@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Code Explainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💻 Smart Code Explainer</h1>
+
+<textarea id="code" placeholder="Paste your code here..."></textarea>
+
+<br>
+
+<select id="level">
+    <option value="beginner">Beginner</option>
+    <option value="medium">Medium</option>
+</select>
+
+<br>
+
+<div>
+    <button onclick="explain()">Explain</button>
+    <button onclick="clearText()">Clear</button>
+    <button onclick="copyText()">Copy</button>
+    <button onclick="download()">Download</button>
+    <button onclick="toggleDark()">Dark Mode</button>
+</div>
+
+<div id="output"></div>
+
+<h3>📜 History</h3>
+<ul id="history"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
